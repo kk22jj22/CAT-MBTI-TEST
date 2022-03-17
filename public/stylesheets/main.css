@@ -1,0 +1,416 @@
+@media only screen and (min-width: 1024px) { 
+    body {
+      width: 100vw;
+      margin: 0%;
+  
+      font-family: 'NEXON Lv1 Gothic OTF';
+    }
+
+    #test-container {
+        opacity: 0%;
+    }
+
+    .test-page {
+        display: flex;
+    
+        height: 100vh;
+        align-items: center;
+        justify-content: center;       
+      }
+    
+    #test-progress {
+        width: 35vw;
+        height: 3vh;
+    
+        position: absolute;
+        top: 30px;
+        background-color: white;
+
+        animation: progress 0.5s linear;
+        animation-fill-mode: forwards;
+    }
+
+    #test-progress::-webkit-progress-bar {
+        background-color: white;
+        animation: progress 0.5s linear;
+        animation-fill-mode: forwards;
+    }
+
+    #test-progress::-webkit-progress-value {
+        background-color: #E4D8DC;
+        animation: progress 0.5s linear;
+        animation-fill-mode: forwards;
+    }
+    
+    .test-question {
+        display: flex;
+    
+        width: 35vw;
+        height: 20vh;
+        
+        margin-top : 2rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+
+        font-weight: bold;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .test-answer {
+        margin-top : 4rem;
+    }
+    
+    #test-answer-1 {
+        display: flex;
+    
+        width: 35vw;
+        height: 20vh;
+    
+        margin-bottom: 1.5rem;
+        padding: 1.5rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #test-answer-1:hover {
+        background-color: #E4D8DC;
+        cursor: pointer;
+    }
+    
+    #test-answer-2:hover {
+        background-color: #E4D8DC;
+        cursor: pointer;
+    }
+    
+    #test-answer-2 {
+        display: flex;
+    
+        width: 35vw;
+        height: 20vh;
+    
+        padding: 1.5rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #result-page {
+        opacity: 0%;
+    }
+
+    #mbti-result-title {        
+        display: flex;
+        position: relative;
+        top: -6rem;
+    
+        width: 35vw;
+        height: 10vh;
+    
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #mbti-description {
+        display: flex;
+    
+        width: 35vw;
+        height: 20vh;
+    
+        position: relative;
+        top: -4rem;
+    
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #test-couple {
+        display: flex;
+    
+        justify-content: space-evenly;
+    }
+    
+    .couple {
+        display: flex;
+    
+        width: 14vw;
+        height: 20vh;
+    
+        position: relative;
+        top: -2rem;
+    
+        float: left;
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        justify-content: center;
+    }
+    
+    .test-share {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .share-restart {
+        display: flex;
+    
+        width: 14vw;
+        height: 10vh;
+               
+        position: relative;
+        top: -1rem;
+    
+        float: left;
+        align-items: center;
+        justify-content: center;
+    
+        border: 1px solid #E4D8DC;
+        background-color: white;
+    
+        font-family: 'NEXON Lv1 Gothic OTF';
+    }
+    
+    .share-restart:hover {
+        background-color: #E4D8DC;
+        cursor: pointer;
+    }
+    
+    a {
+        text-decoration-line: none;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        width: 100vw;
+        margin: 0%;
+    
+        font-family: 'NEXON Lv1 Gothic OTF';
+    }
+  
+    #test-container {
+        opacity: 0%;
+    }
+
+    .test-page {
+        display: flex;
+    
+        height: 100vh;
+        align-items: center;
+        justify-content: center;       
+    }
+    
+    #test-progress {
+        width: 90vw;
+        height: 3vh;
+    
+        position: absolute;
+        top: 30px;
+        background-color: white;
+
+        animation: progress 0.5s linear;
+        animation-fill-mode: forwards;
+    }
+
+    #test-progress::-webkit-progress-bar {
+        background-color: white;
+        animation: progress 0.5s linear;
+        animation-fill-mode: forwards;
+    }
+
+    #test-progress::-webkit-progress-value {
+        background-color: #E4D8DC;
+        animation: progress 0.5s linear;
+        animation-fill-mode: forwards;
+    }
+    
+    .test-question {
+        display: flex;
+    
+        width: 90vw;
+        height: 20vh;
+        
+        margin-top : 2rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+
+        font-weight: bold;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .test-answer {
+        margin-top : 4rem;
+    }
+    
+    #test-answer-1 {
+        display: flex;
+    
+        width: 90vw;
+        height: 20vh;
+    
+        margin-bottom: 1.5rem;
+        padding: 1.5rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #test-answer-1:hover {
+        background-color: #E4D8DC;
+        cursor: pointer;
+    }
+    
+    #test-answer-2:hover {
+        background-color: #E4D8DC;
+        cursor: pointer;
+    }
+    
+    #test-answer-2 {
+        display: flex;
+    
+        width: 90vw;
+        height: 20vh;
+    
+        padding: 1.5rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #result-page {
+        opacity: 0%;
+    }
+
+    #mbti-result-title {        
+        display: flex;
+        position: relative;
+        top: -6rem;
+    
+        width: 90vw;
+        height: 10vh;
+    
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #mbti-description {
+        display: flex;
+    
+        width: 90vw;
+        height: 20vh;
+    
+        position: relative;
+        top: -4rem;
+    
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #test-couple {
+        display: flex;
+    
+        justify-content: space-evenly;
+    }
+    
+    .couple {
+        display: flex;
+    
+        width: 40vw;
+        height: 20vh;
+    
+        position: relative;
+        top: -2rem;
+    
+        float: left;
+        padding: 1rem;
+        box-sizing: border-box;
+    
+        border: 1px solid #E4D8DC;
+    
+        justify-content: center;
+    }
+    
+    .test-share {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .share-restart {
+        display: flex;
+    
+        width: 40vw;
+        height: 10vh;
+                
+        position: relative;
+        top: -1rem;
+    
+        float: left;
+        align-items: center;
+        justify-content: center;
+    
+        border: 1px solid #E4D8DC;
+        background-color: white;
+    
+        font-family: 'NEXON Lv1 Gothic OTF';
+    }
+    
+    .share-restart:hover {
+        background-color: #E4D8DC;
+        cursor: pointer;
+    }
+    
+    a {
+        text-decoration-line: none;
+        color: black;
+    }
+}
+
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
